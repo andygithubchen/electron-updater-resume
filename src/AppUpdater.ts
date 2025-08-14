@@ -707,6 +707,8 @@ export abstract class AppUpdater extends (EventEmitter as new () => TypedEmitter
     return result
   }
 
+  //=========================================================================================================================================================
+
   protected async executeDownload(taskOptions: DownloadExecutorTask): Promise<Array<string>> {
     const fileInfo = taskOptions.fileInfo
     const downloadOptions: DownloadOptions = {
@@ -798,6 +800,9 @@ export abstract class AppUpdater extends (EventEmitter as new () => TypedEmitter
     log.info(`New version ${version} has been downloaded to ${updateFile}`)
     return await done(true)
   }
+
+  //=========================================================================================================================================================
+
   protected async differentialDownloadInstaller(
     fileInfo: ResolvedUpdateFileInfo,
     downloadUpdateOptions: DownloadUpdateOptions,

@@ -16,6 +16,7 @@ npm install electron-updater-resume
 ```bash
 const { autoUpdater } = require('electron-updater-resume');
 ```
+The usage method inherits all the methods of electron-updater
 
 ## license
 MIT

@@ -7,18 +7,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-userland/electron-builder.git",
-    "directory": "packages/electron-updater"
+    "url": "https://github.com/andygithubchen/electron-updater-resume.git"
   },
-  "bugs": "https://github.com/electron-userland/electron-builder/issues",
-  "homepage": "https://github.com/electron-userland/electron-builder",
+  "bugs": "https://github.com/andygithubchen/electron-updater-resume/issues",
+  "homepage": "https://github.com/andygithubchen/electron-updater-resume",
   "files": [
     "out"
   ],
   "dependencies": {
-    "builder-util": "^26.0.11",
-    "builder-util-runtime": "^9.3.1",
-    "electron-builder-http": "^19.27.5",
+    "builder-util-runtime": "9.3.3",
     "fs-extra": "^10.1.0",
     "js-yaml": "^4.1.0",
     "lazy-val": "^1.0.5",
@@ -32,6 +29,7 @@
     "@types/js-yaml": "4.0.3",
     "@types/lodash.escaperegexp": "4.1.6",
     "@types/lodash.isequal": "4.5.5",
+    "@types/node": "^22.7.4",
     "@types/semver": "^7.3.13",
     "electron": "^31.2.1"
   },
